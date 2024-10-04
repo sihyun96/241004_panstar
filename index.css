@@ -6,10 +6,11 @@ body {
 }
 
 main {
-  width: 100%; height: 100vh;
+  width: 100%; 
+  height: 90vh;
   color: #fff;
   margin: 0;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 /**** video ****/
 main .video {
@@ -61,7 +62,8 @@ main header .nav {
  display: flex;
  justify-content: space-around;
  align-items: center;
- font-size: 0.5rem;
+ font-size: 0.8rem;
+ font-weight: bold;
 }
 main header .nav .txt1 {
  background-color: #FF8A26;
@@ -69,9 +71,10 @@ main header .nav .txt1 {
  padding: 5px 10px;
  display: flex;
  align-items: center;
+ 
 }
 main header .nav .txt1 img {
-  width: 10px; 
+  width: 12px; 
   color: #fff;
   margin-right: 3px;
 }
@@ -81,19 +84,20 @@ main header .nav .txt2 {
   align-items: center;
 }
 main header .nav .txt2 img {
-  width: 10px;
+  width: 20px;
 }
 main header .nav button {
   background-color: transparent;
   border: none;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
   margin: 0 40px 0 10px;
   color: #fff;
   display: flex;
- align-items: center;
+  align-items: center;
 }
 main header .nav button img {
-  width: 10px;
+  width: 20px;
 }
 main .video-contant {
   margin: 300px 0 0 100px ;
